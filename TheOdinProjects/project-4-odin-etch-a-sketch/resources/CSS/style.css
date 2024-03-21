@@ -1,0 +1,26 @@
+:root {
+  --grid-rows: 1;
+  --grid-cols: 1;
+}
+
+
+#etch-container {
+  display: grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+  overflow: auto;
+  max-width: auto;
+  max-height: auto;
+}
+
+
+.grid-item {
+  padding: 1em;
+  text-align: center;
+}
+
+
+.button-container {
+  text-align: center;
+  margin-bottom: 8px;
+}

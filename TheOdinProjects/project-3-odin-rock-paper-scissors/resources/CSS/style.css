@@ -1,0 +1,35 @@
+#rock-button {
+  margin-right: 8px;
+  height: 25px;
+  width: 75px;
+}
+
+
+#paper-button {
+  margin-right: 8px;
+  height: 25px;
+  width: 75px;
+}
+
+
+#scissors-button {
+  height: 25px;
+  width: 75px;
+}
+
+#player {
+  float: left;
+  margin-right: 16px;
+}
+
+
+#computer {
+  float: left;
+  display: block;
+}
+
+
+.scoreboard {
+  display: flex;
+  flex-wrap: wrap;
+}
